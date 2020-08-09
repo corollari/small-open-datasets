@@ -42,6 +42,7 @@ jobs:
         with:
           name: package
           path: ./country-name-to-iso-code/data.js
+      - run: echo a > ./country-name-to-iso-code/data2.js
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.6.4
         with:
